@@ -1,0 +1,317 @@
+/* Importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #0a2240; /* Azul oscuro */
+    color: white;
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Posicionamiento relativo para contener al selector de idioma */
+}
+
+/* Logo */
+.logo {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    filter: brightness(0) invert(1); /* Asegura que el logo sea blanco */
+}
+
+/* Título */
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none; /* Elimina los puntos */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row; /* Botones en línea horizontal */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Botones de navegación */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Ubicar el selector de idioma en la parte superior derecha */
+.language-selector {
+    position: absolute; /* Posicionamiento absoluto dentro del encabezado */
+    top: 20px; /* Margen superior */
+    right: 20px; /* Margen derecho */
+    z-index: 1000; /* Se mantiene sobre otros elementos */
+}
+
+/* Estilo del selector */
+.language-selector select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #0a2240;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* SECCIONES */
+section {
+    background: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 95%;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* IMÁGENES */
+.main-image, .service-image, .contact-image, .imagen-servicios img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.main-image:hover, .service-image:hover, .contact-image:hover, .imagen-servicios img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px; /* Reducción del ancho máximo */
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px; /* Reducción del padding */
+    margin: 0;
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Ajuste del radio de borde */
+    font-size: 0.9rem; /* Reducción del tamaño de fuente */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff6b35;
+    box-shadow: 0 0 8px rgba(255, 107, 53, 0.3);
+}
+
+button {
+    background-color: #ff6b35;
+    color: white;
+    padding: 12px 25px; /* Ajuste del padding */
+    border: none;
+    border-radius: 10px; /* Ajuste del radio de borde */
+    cursor: pointer;
+    font-size: 1rem;
+    align-self: flex-start;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e65c00;
+    transform: scale(1.03);
+}
+
+/* BOTÓN "IR A LA TIENDA" */
+.shop-button {
+    display: inline-block;
+    background-color: #ff6b35;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.shop-button:hover {
+    background-color: #e65c00;
+    transform: scale(1.03);
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #0a2240;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ff6b35;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* RESPONSIVO */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .language-selector select {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-image, .service-image, .contact-image, .imagen-servicios img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    form {
+        gap: 15px;
+    }
+
+    input, textarea {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    .language-selector select {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input, textarea {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
