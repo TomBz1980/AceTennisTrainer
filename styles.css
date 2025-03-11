@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #003366; /* Asegurar que sea el mismo para el encabezado y el pie de página */
+    background-color: #003366;
     color: white;
     padding: 30px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -50,6 +50,8 @@ nav ul {
     gap: 10px;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
 nav ul li a {
@@ -114,7 +116,7 @@ p {
 }
 
 footer {
-    background-color: #003366; /* Asegurar que sea el mismo para el encabezado y el pie de página */
+    background-color: #003366;
     color: white;
     padding: 30px 20px;
     margin-top: 50px;
@@ -183,7 +185,7 @@ input:focus, textarea:focus {
     box-shadow: 0 0 8px rgba(255, 107, 53, 0.3);
 }
 
-button, .shop-button {
+button, .shop-button, .discount-button {
     background-color: #ff6b35;
     color: white;
     padding: 12px 25px;
@@ -197,7 +199,7 @@ button, .shop-button {
     text-decoration: none;
 }
 
-button:hover, .shop-button:hover {
+button:hover, .shop-button:hover, .discount-button:hover {
     background-color: #e65c00;
     transform: scale(1.03);
 }
@@ -257,7 +259,7 @@ button:hover, .shop-button:hover {
     padding-bottom: 56.25%;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .hero-video {
@@ -277,7 +279,7 @@ button:hover, .shop-button:hover {
     margin-top: 2rem;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .hero-content h2 {
@@ -306,26 +308,6 @@ button:hover, .shop-button:hover {
 .hero-content .discount-button:hover {
     background-color: #e65c00;
     transform: scale(1.05);
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-    #inicio .video-container {
-        padding-bottom: 56.25%;
-    }
-
-    .hero-content h2 {
-        font-size: 1.3rem;
-    }
-
-    .hero-content p {
-        font-size: 0.9rem;
-    }
-
-    .hero-content .discount-button {
-        padding: 10px 20px;
-        font-size: 0.9rem;
-    }
 }
 
 /* Estilos para el video de Servicios */
@@ -358,14 +340,6 @@ button:hover, .shop-button:hover {
     font-size: 1.5rem;
     color: #333;
     text-align: center;
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-    .video-container {
-        padding-bottom: 56.25%;
-        border-radius: 10px;
-    }
 }
 
 /* Estilos para el newsletter */
