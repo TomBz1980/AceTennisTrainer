@@ -3,53 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ace Tennis Trainer</title>
+    <title>Ace Tennis Trainer - Entrenamiento de Tenis en Hamburgo</title>
+    <meta name="description" content="Entrenador de tenis con 17 años de experiencia ofreciendo clases personalizadas en Hamburgo. Primera clase con 50% de descuento.">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
-    <style>
-        section {
-            padding: 20px;
-            margin-bottom: 30px;
-        }
-        h2 {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-            color: #555;
-        }
-        .hidden {
-            display: none;
-        }
-        footer {
-            background-color: #0a2240;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        footer a {
-            color: #ffcc00;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 10px;
-        }
-        footer a:hover {
-            color: #ff6b35;
-        }
-    </style>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXX'); // Reemplazar con ID real
+    </script>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Ace Tennis Global Logo" class="logo">
-        <h1 id="title" data-translate="title">Ace Tennis Trainer</h1>
+        <img src="images/logo.png" alt="Ace Tennis Trainer Logo" class="logo">
+        <h1 id="title" data-translate="title">Ace Tennis Trainer - Hamburgo</h1>
         <nav>
             <ul>
                 <li><a href="#inicio" data-translate="inicio">Inicio</a></li>
-                <li><a href="#biografia" data-translate="biografia">Biografía</a></li>
-                <li><a href="#servicios" data-translate="servicios">Servicios</a></li>
+                <li><a href="#entrenador" data-translate="entrenador">Entrenador</a></li>
+                <li><a href="#servicios" data-translate="servicio">Servicio</a></li>
+                <li><a href="#testimonios" data-translate="testimonio">Testimonio</a></li>
                 <li><a href="#tienda" data-translate="tienda">Tienda</a></li>
                 <li><a href="#contacto" data-translate="contacto">Contacto</a></li>
             </ul>
@@ -62,64 +38,128 @@
     </header>
 
     <section id="inicio">
-        <h2 data-translate="mejora">Encuentra tu Entrenador y Equípate para el Tenis</h2>
-        <p id="descripcion" data-translate="descripcion">
-            Este espacio está diseñado para ti, que buscas aprender, mejorar y disfrutar del tenis con un entrenamiento adaptado a tus necesidades. A través de este medio, puedes encontrar un entrenador con experiencia internacional que te guiará en tu progreso, ya sea que estés dando tus primeros golpes o quieras perfeccionar tu técnica y estrategia.
-            El tenis es más que un deporte: es una oportunidad para superarte, mantenerte activo y disfrutar cada momento en la cancha. Aquí descubrirás un enfoque personalizado para alcanzar tus objetivos, sin importar tu edad o nivel de juego.
-            Además, cuentas con una tienda online donde podrás encontrar productos exclusivos para mejorar tu experiencia en la cancha. Desde equipamiento hasta accesorios esenciales, todo lo que necesitas para potenciar tu juego está aquí.
-            Si estás listo para entrenar con pasión, mejorar tu rendimiento y equiparte con lo mejor, este es el medio para comenzar. ¡Bienvenido a tu próximo desafío en la cancha!
-        </p>
-        <img src="tennis-training.jpg" alt="Entrenamiento de tenis" class="main-image">
-    </section>
+        <div class="video-container">
+            <video autoplay muted loop controls class="hero-video">
+                <source src="videos/tennis-intro.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
     
-    <section id="biografia">
-        <h2 data-translate="biografia">Biografía</h2>
-        <p id="biografia_texto" data-translate="biografia_texto"></p>
-        <img src="coach-tennis.jpg" alt="Entrenador de tenis" class="main-image">
+        <div class="hero-content">
+            <h2 data-translate="welcome">¡Descubre el tenis en Hamburgo con Ace Tennis Trainer!</h2>
+            <p data-translate="classes_info">
+                No importa si has jugado antes o si esta es tu primera vez en una cancha: el tenis es un deporte para disfrutar a cualquier edad y nivel. Mis entrenamientos en Hamburgo están diseñados para adaptarse a ti, ayudándote a mejorar tu técnica, moverte con confianza y, sobre todo, disfrutar desde el primer día.
+                Mi enfoque es flexible y personalizado, pensado para que avances a tu propio ritmo, sin importar tu experiencia previa. Ya sea que busques aprender algo nuevo, mantenerte activo o elevar tu nivel, aquí encontrarás sesiones que te permitirán progresar de manera natural y divertida.
+                Además, en mi tienda online descubrirás equipamiento y accesorios seleccionados para potenciar tu experiencia en la cancha.
+                🎾 Tu juego, tu ritmo, tu evolución. Empieza hoy en Hamburgo y explora todo lo que el tenis tiene para ti.
+            </p>
+            <a href="#contacto" class="discount-button" data-translate="discount_offer">¡Oferta limitada! 50% de descuento en la primera clase</a>
+        </div>
     </section>
-    
+
+    <section id="entrenador">
+        <h2 data-translate="coach_title">Entrenador</h2>
+        <div class="coach-content">
+            <img src="images/coach-tennis.jpg" alt="Entrenador de tenis en Hamburgo" class="main-image">
+            <div class="coach-description">
+                <p data-translate="coach_description">
+                    Un Entrenador con Experiencia y Pasión por el Tenis en Hamburgo
+                    Llevo 17 años dedicándome a la enseñanza del tenis, trabajando en diversos países y contextos con jugadores de todas las edades y habilidades. Desde clubes prestigiosos hasta proyectos comunitarios y colegios internacionales, mi trayectoria me ha permitido desarrollar un método adaptable y efectivo, siempre centrado en las necesidades individuales.
+                    He aprendido que cada jugador tiene un camino único: unos buscan perfeccionar su técnica, otros priorizan la actividad física, y otros simplemente desean disfrutar del momento. Por eso, mis sesiones integran técnica, táctica y condición física de manera accesible y motivadora, garantizando que cada entrenamiento sea una experiencia enriquecedora.
+                    Para mí, el tenis es más que un deporte: es una forma de superarse y conectarse con el presente. Mi objetivo es ayudarte a ganar seguridad en la cancha, descubrir tu estilo personal y experimentar lo gratificante que es el tenis cuando se aprende sin presiones.
+                    Si deseas iniciar o retomar esta aventura en Hamburgo, estaré encantado de acompañarte. Nos vemos en la cancha.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <section id="servicios">
-        <h2 data-translate="servicios">Services</h2>
-        <p data-translate="intro">📍 Clases de tenis adaptadas a tu nivel y objetivos</p>
-    
-        <p>✅ <strong data-translate="clase_individual">Clases individuales personalizadas</strong><br>
-        🔹 <span data-translate="clase_individual_desc">Mejora tu técnica con un entrenamiento adaptado solo para ti.</span></p>
-    
-        <p>✅ <strong data-translate="clase_grupal">Clases grupales (máx. 4 personas)</strong><br>
-        🔹 <span data-translate="clase_grupal_desc">Entrena en un ambiente social y aprende con otros jugadores.</span></p>
-    
-        <p>✅ <strong data-translate="clase_grande">Clases grupales grandes</strong><br>
-        🔹 <span data-translate="clase_grande_desc">Perfecto para quienes disfrutan entrenar en grupo y mejorar juntos.</span></p>
-    
-        <p>✅ <strong data-translate="tecnica">Técnica, táctica y estrategia</strong><br>
-        🔹 <span data-translate="tecnica_desc">Aprende a leer el juego, perfeccionar golpes y desarrollar estrategias ganadoras.</span></p>
-    
-        <p>✅ <strong data-translate="preparacion_fisica">Preparación física especializada para el tenis</strong><br>
-        🔹 <span data-translate="preparacion_fisica_desc">Mejora tu resistencia, fuerza y movilidad en la cancha.</span></p>
-    
-        <p>📅 <strong data-translate="horarios">Horarios:</strong> 
-        <span data-translate="horarios_desc">Clases disponibles en las mañanas.</span></p>
-    
-        <p>📍 <strong data-translate="lugar">Lugar:</strong> 
-        <span data-translate="lugar_desc">A convenir dentro de Hamburgo.</span></p>
-    
-        <div class="imagen-servicios">
-            <img src="group-tennis.jpg" alt="Grupo de entrenamiento de tenis">
+        <h2 data-translate="services">Servicios en Hamburgo</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <img src="images/women-tennis.jpg" alt="Clases individuales" class="service-image">
+                <div class="service-text">
+                    <p>✅ <strong data-translate="clase_individual">Clases individuales personalizadas</strong><br>
+                    🔹 <span data-translate="clase_individual_desc">Entrenamiento uno a uno diseñado específicamente para tus necesidades, nivel y objetivos. Estas sesiones te permiten progresar a tu propio ritmo, con correcciones técnicas inmediatas y un enfoque personalizado en los aspectos que necesitas mejorar. Ideal para principiantes que desean fundamentar correctamente su técnica y para jugadores avanzados que buscan perfeccionar detalles específicos de su juego.</span></p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="images/seniors-tennis.jpg" alt="Clases grupales" class="service-image">
+                <div class="service-text">
+                    <p>✅ <strong data-translate="clase_grupal">Clases grupales</strong><br>
+                    🔹 <span data-translate="clase_grupal_desc">Sesiones en grupo que combinan entrenamiento técnico con la diversión de jugar con otros. Estas clases fomentan la motivación mutua, la competición amistosa y el aspecto social del tenis. Se organizan por niveles para asegurar que todos los participantes estén en un entorno adecuado a su capacidad actual. Perfecto para aquellos que quieren mejorar mientras disfrutan de la compañía de otros tenistas.</span></p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="images/tactic-strategy.jpg" alt="Técnica y estrategia" class="service-image">
+                <div class="service-text">
+                    <p>✅ <strong data-translate="tecnica">Técnica, táctica y estrategia</strong><br>
+                    🔹 <span data-translate="tecnica_desc">Enfoque integral que combina la perfección técnica de los golpes con la comprensión táctica del juego. Aprenderás a leer el juego de tu oponente, a desarrollar estrategias adaptadas a diferentes situaciones y a utilizar la posición en la cancha como ventaja. Este servicio es esencial para jugadores que no solo quieren mejorar físicamente, sino que buscan entender el tenis como un deporte mental y estratégico.</span></p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="images/fitness-tennis.jpg" alt="Preparación física" class="service-image">
+                <div class="service-text">
+                    <p>✅ <strong data-translate="preparacion_fisica">Preparación física especializada para el tenis</strong><br>
+                    🔹 <span data-translate="preparacion_fisica_desc">Programa de condicionamiento físico diseñado específicamente para las demandas del tenis. Incluye ejercicios para mejorar la resistencia cardiovascular, la fuerza explosiva, la flexibilidad y la coordinación. Estas sesiones te ayudarán a prevenir lesiones, a mantener un alto nivel de rendimiento durante todo el partido y a recuperarte más rápidamente entre partidos.</span></p>
+                </div>
+            </div>
+            <div class="service-item text-only">
+                <div class="service-text">
+                    <p>📅 <strong data-translate="horarios">Horarios:</strong> 
+                    <span data-translate="horarios_desc">Clases disponibles en las mañanas en Hamburgo.</span></p>
+                    <p>📍 <strong data-translate="lugar">Lugar:</strong> 
+                    <span data-translate="lugar_desc">En varias ubicaciones de Hamburgo. Consulta disponibilidad.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="service-video">
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/tecnica-avanzada.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h3 data-translate="service_video_title">Técnica Avanzada</h3>
+        </div>
+    </section>
+
+    <section id="testimonios">
+        <h2 data-translate="testimonios">Testimonios</h2>
+        <div class="testimonios-container">
+            <div class="testimonio">
+                <img src="images/testimonial1.jpg" alt="Cliente satisfecho" class="testimonial-image">
+                <div class="testimonial-text">
+                    <p data-translate="testimonial1">"Como principiante en el tenis, las clases de Ace Tennis Trainer en Hamburgo me han ayudado a progresar rápidamente. El entrenador es muy paciente y sabe adaptar las sesiones a mis necesidades."</p>
+                    <p data-translate="testimonial1_author"><strong>- Maria S., Hamburgo</strong></p>
+                </div>
+            </div>
+            <div class="testimonio">
+                <img src="images/testimonial2.jpg" alt="Cliente satisfecho" class="testimonial-image">
+                <div class="testimonial-text">
+                    <p data-translate="testimonial2">"He mejorado mucho mi técnica después de unas pocas semanas de entrenamiento con él. El entrenador realmente sabe lo que hace."</p>
+                    <p data-translate="testimonial2_author"><strong>- Thomas K., Hamburgo</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mapa">
+        <h2 data-translate="mapa">Ubicación en Hamburgo</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.194936714554!2d9.9945345!3d53.5510846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b3a08b8c472b8b%3A0x52c8d8d8d8d8d8d8!2sEjemplo%20de%20ubicación%20en%20Hamburgo!5e0!3m2!1ses!2sde!4v1621094400000!5m2!1ses!2sde" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
 
     <section id="tienda">
         <h2 data-translate="tienda">Tienda</h2>
-        <p data-translate="tienda_desc">Explorá nuestra colección de productos exclusivos para tenis.</p>
-        <div class="shop-button-container">
-            <a href="https://acetennisglobal.myshopify.com/" class="shop-button" target="_blank" data-translate="ir_tienda">🛒 Ir a la Tienda</a>
-        </div>
-        <img src="store.jpg" alt="Tienda de artículos de tenis" class="main-image">
+        <p data-translate="tienda_desc">Descubre nuestra selección de ropa y accesorios de tenis. Ofrecemos una variedad de opciones que incluyen prendas para hombres, mujeres y niños, así como también bolsas de tenis y otros elementos esenciales para el juego en Hamburgo. Todo lo que necesitas para mejorar tu desempeño en la cancha está aquí.</p>
+        <a href="https://acetennisglobal.myshopify.com/" class="shop-button" target="_blank" data-translate="ir_tienda">🛒 Ir a la Tienda</a>
+        <img src="images/store.jpg" alt="Tienda de artículos de tenis" class="main-image">
     </section>
-    
+
     <section id="contacto">
         <h2 data-translate="consulta">Consultas</h2>
-        <form id="consulta-form" action="https://formspree.io/f/xldgwajy" method="POST">
+        <form id="contact-form" action="https://formspree.io/f/xldgwajy" method="POST">
             <label for="nombre" data-translate="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             
@@ -129,48 +169,30 @@
             <label for="mensaje" data-translate="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
             
-            <button type="submit" data-translate="enviar">Enviar</button>
+            <button type="submit" class="orange-button" data-translate="enviar">Enviar</button>
         </form>
+        
         <p><span data-translate="correo">Contacto:</span> <a href="mailto:acetennistrainer@gmail.com">acetennistrainer@gmail.com</a></p>
+        
     </section>
 
     <footer>
         <p>
-            <a href="javascript:void(0);" onclick="togglePrivacyPolicy()" data-translate="policy-title">Política de Privacidad</a> | 
-            <a href="javascript:void(0);" onclick="toggleCopyright()" data-translate="copyright-title">Derechos de Autor</a>
+            <a href="javascript:void(0);" onclick="togglePrivacyPolicy()" data-translate="policy_title">Política de Privacidad</a> | 
+            <a href="javascript:void(0);" onclick="toggleCopyright()" data-translate="copyright_title">Derechos de Autor</a>
         </p>
-
+    
         <div id="privacy-policy" class="hidden">
-            <h2 id="policy-title" data-translate="policy-title">Política de Privacidad</h2>
-            <p id="policy-text" data-translate="policy-text">
-                Esta política de privacidad describe cómo Ace Tennis Trainer recopila, utiliza y protege la información personal de sus usuarios.
-                Nombre y datos de contacto (email, teléfono, etc.)
-                No recopilamos información de pago; las compras se procesan externamente a través de Shopify.
+            <h2 id="policy-title" data-translate="policy_title">Política de Privacidad</h2>
+            <p id="policy-text" data-translate="policy_text">
+                Esta política de privacidad describe cómo Ace Tennis Trainer recopila, utiliza y protege la información personal de sus usuarios en Hamburgo.
             </p>
         </div>
         
         <div id="copyright" class="hidden">
-            <h2 id="copyright-title" data-translate="copyright-title">Derechos de Autor</h2>
-            <p id="copyright-text" data-translate="copyright-text">© 2025 Ace Tennis Trainer. Todos los derechos reservados.</p>
+            <h2 id="copyright-title" data-translate="copyright_title">Derechos de Autor</h2>
+            <p id="copyright-text" data-translate="copyright_text">© 2025 Ace Tennis Trainer. Todos los derechos reservados.</p>
         </div>
-        
     </footer>
-
-    <script>
-        // Cargar idioma al inicio
-        loadLanguage(getSavedLanguage());
-
-        function togglePrivacyPolicy() {
-            const privacyPolicy = document.getElementById('privacy-policy');
-            privacyPolicy.classList.toggle('hidden');
-            loadLanguage(getSavedLanguage());
-        }
-
-        function toggleCopyright() {
-            const copyright = document.getElementById('copyright');
-            copyright.classList.toggle('hidden');
-            loadLanguage(getSavedLanguage());
-        }
-    </script>
 </body>
 </html>
