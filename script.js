@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             `,
             classes_info: `
                 No importa si has jugado antes o si esta es tu primera vez en una cancha: el tenis es un deporte para disfrutar a cualquier edad y nivel. Mis entrenamientos en Hamburgo están diseñados para adaptarse a ti, ayudándote a mejorar tu técnica, moverte con confianza y, sobre todo, disfrutar desde el primer día.
-                Mi enfoque es flexible y personalizado, pensado para que avances a tu propio ritmo, sin importar tu experiencia previa. Ya sea que busques aprender algo nuevo, mantenerte activo o elevar tu nivel, aquí encontrarás sesiones que te permitirán progresar de manera natural y divertida.
+                Mi enfoque es flexible y personalizado, pensado para que avances a tu propio ritmo, sin importar tu experiencia previa. Ya sea que busques aprender algo nuevo, mantenerte activo o elevar tu nivel, aquí encontrarás sesiones que te permitan progresar de manera natural y divertida.
                 Además, en mi tienda online descubrirás equipamiento y accesorios seleccionados para potenciar tu experiencia en la cancha.
                 🎾 Tu juego, tu ritmo, tu evolución. Empieza hoy en Hamburgo y explora todo lo que el tenis tiene para ti.
             `,
@@ -73,10 +73,38 @@ document.addEventListener("DOMContentLoaded", function () {
             correo: "Contacto:",
             mapa: "Ubicación en Hamburgo",
             testimonios: "Testimonios",
-        testimonial1: `"Como principiante en el tenis, las clases de Ace Tennis Trainer en Hamburgo me han ayudado a progresar rápidamente. El entrenador es muy paciente y sabe adaptar las sesiones a mis necesidades."`,
-        testimonial1_author: "- Maria S., Hamburgo",
-        testimonial2: `"He mejorado mucho mi técnica después de unas pocas semanas de entrenamiento con él. El entrenador realmente sabe lo que hace."`,
-        testimonial2_author: "- Thomas K., Hamburgo"
+            testimonial1: `"Como principiante en el tenis, las clases de Ace Tennis Trainer en Hamburgo me han ayudado a progresar rápidamente. El entrenador es muy paciente y sabe adaptar las sesiones a mis necesidades."`,
+            testimonial1_author: "- Maria S., Hamburgo",
+            testimonial2: `"He mejorado mucho mi técnica después de unas pocas semanas de entrenamiento con él. El entrenador realmente sabe lo que hace."`,
+            testimonial2_author: "- Thomas K., Hamburgo",
+            consultoria: "Consultoría",
+            consultoria_title: "Consultoría para Entrenadores",
+            consultoria_description: "Expande tu Carrera como Entrenador de Tenis en el Mundo\nSi eres entrenador de tenis o aspiras a serlo y sueñas con trabajar en el extranjero, esta consultoría te ayudará a dar los pasos correctos para lograrlo. Con más de 17 años de experiencia en cuatro continentes, te guiaré en el proceso de construir una carrera internacional en distintos tipos de clubes, escuelas y programas deportivos.",
+            consultoria_ofrece: "¿Qué Ofrezco en la Consultoría?",
+            consultoria_items: [
+                "Asesoramiento personalizado sobre cómo conseguir oportunidades laborales en el exterior.",
+                "Revisión de CV y cartas de presentación para destacar tu perfil ante empleadores internacionales.",
+                "Certificaciones y requisitos: Información sobre credenciales necesarias en distintos países.",
+                "Adaptación cultural y metodológica: Claves para entrenar en diferentes entornos socioeconómicos y culturales.",
+                "Diferencias en la industria del tenis entre clubes de élite, colegios internacionales y programas comunitarios.",
+                "Red de contactos: Consejos para construir relaciones profesionales en la industria del tenis global.",
+                "Cómo dar clases de tenis en inglés para hablantes no nativos: Estrategias y terminología clave para entrenar a jugadores en un idioma que no es su lengua materna."
+            ],
+            consultoria_público: "¿Para Quién es Esta Consultoría?",
+            consultoria_público_items: [
+                "Entrenadores que buscan su primera experiencia internacional.",
+                "Profesionales que ya han trabajado fuera y quieren expandir sus oportunidades.",
+                "Aspirantes a entrenadores que desean prepararse para un futuro en el tenis a nivel global."
+            ],
+            consultoria_modalidades: "Modalidades de Consultoría",
+            consultoria_modalidades_items: [
+                "Sesiones individuales online: Asesoramiento 1 a 1 adaptado a tus necesidades.",
+                "Talleres grupales (próximamente): Espacios de aprendizaje colectivo con otros entrenadores.",
+                "Mentoría a largo plazo: Acompañamiento continuo para desarrollar tu carrera internacional."
+            ],
+            consultoria_reserva: "Si estás listo para dar el siguiente paso en tu carrera como entrenador de tenis a nivel internacional, agenda una sesión conmigo.",
+            consultoria_sobremi: "Soy entrenador de tenis con 17 años de experiencia en Argentina, Nueva Zelanda, China y Alemania. He trabajado en clubes de élite, colegios internacionales y programas de desarrollo en comunidades sin tradición en el tenis. Mi experiencia me permite brindarte un panorama realista y práctico sobre cómo construir una carrera internacional en este deporte.",
+            consultoria_contacto: "Contáctame para más información"
         },
         en: {
             title: "Ace Tennis Trainer - Hamburg",
@@ -136,7 +164,35 @@ document.addEventListener("DOMContentLoaded", function () {
             testimonial1: `"As a tennis beginner, Ace Tennis Trainer's classes in Hamburg have helped me progress quickly. The coach is very patient and knows how to adapt sessions to my needs."`,
             testimonial1_author: "- Maria S., Hamburg",
             testimonial2: `"I've improved my technique a lot after just a few weeks of training with him. The coach really knows what he's doing."`,
-            testimonial2_author: "- Thomas K., Hamburg"
+            testimonial2_author: "- Thomas K., Hamburg",
+            consultoria: "Consulting",
+            consultoria_title: "Consulting for Tennis Coaches",
+            consultoria_description: "Expand Your Career as a Tennis Coach Worldwide\nIf you are a tennis coach or aspire to be one and dream of working abroad, this consulting service will help you take the right steps to achieve it. With over 17 years of experience across four continents, I will guide you through the process of building an international career in different types of clubs, schools, and sports programs.",
+            consultoria_ofrece: "What Do I Offer in Consulting?",
+            consultoria_items: [
+                "Personalized advice on how to secure job opportunities abroad.",
+                "CV and cover letter review to highlight your profile to international employers.",
+                "Certifications and requirements: Information on necessary credentials in different countries.",
+                "Cultural and methodological adaptation: Keys to training in different socioeconomic and cultural environments.",
+                "Differences in the tennis industry between elite clubs, international schools, and community programs.",
+                "Networking: Tips for building professional relationships in the global tennis industry.",
+                "How to teach tennis in English for non-native speakers: Strategies and key terminology for training players in a language that is not their mother tongue."
+            ],
+            consultoria_público: "Who Is This Consulting For?",
+            consultoria_público_items: [
+                "Coaches seeking their first international experience.",
+                "Professionals who have already worked abroad and want to expand their opportunities.",
+                "Aspiring coaches who want to prepare for a future in global tennis."
+            ],
+            consultoria_modalidades: "Consulting Modalities",
+            consultoria_modalidades_items: [
+                "Individual online sessions: 1-on-1 advice tailored to your needs.",
+                "Group workshops (coming soon): Collective learning spaces with other coaches.",
+                "Long-term mentorship: Continuous support to develop your international career."
+            ],
+            consultoria_reserva: "If you're ready to take the next step in your international tennis coaching career, schedule a session with me.",
+            consultoria_sobremi: "I am a tennis coach with 17 years of experience in Argentina, New Zealand, China, and Germany. I have worked in elite clubs, international schools, and development programs in communities without a tennis tradition. My experience allows me to provide you with a realistic and practical perspective on building an international career in this sport.",
+            consultoria_contacto: "Contact me for more information"
         },
         de: {
             title: "Ace Tennis Trainer - Hamburg",
@@ -169,7 +225,7 @@ document.addEventListener("DOMContentLoaded", function () {
             clase_grupal: "Gruppenstunden",
             tecnica: "Technik, Taktik und Strategie",
             preparacion_fisica: "Spezialisiertes Fitnesstraining für Tennis",
-            clase_individual_desc: "Eins-zu-eins-Training, speziell auf deine Bedürfnisse, dein Niveau und deine Ziele zugeschnitten. Diese Sitzungen ermöglichen es dir, in deinem eigenen Tempo voranzukommen, mit sofortigen technischen Korrekturen und einem personalisierten Fokus auf die Aspekte, die du verbessern möchtest. Ideal für Anfänger, die ihre Technik grundlegend erlernen möchten, und für fortgeschrittene Spieler, die spezifische Details ihres Spiels verfeinern möchten.",
+            clase_individual_desc: "Eins-zu-eins-Training, speziell auf deine Bedürfnisse, dein Niveau und deine Ziele zugeschnitten. Diese Sitzungen ermöglichen es dir, in deinem eigenen Tempo voranzukommen, mit sofortigen technischen Korrekturen und einem personalisierten Fokus auf die Aspekte, die du verbessern möchtest. Ideal für Anfänger, die ihre Technik grundlegend erlernenlernen fortgeschrittene Spieler, die spezifische Details ihres Spiels verfeinern möchten.",
             clase_grupal_desc: "Gruppensitzungen, die technisches Training mit dem Spaß des Spielens mit anderen kombinieren. Diese Klassen fördern die gegenseitige Motivation, den freundlichen Wettbewerb und den sozialen Aspekt des Tennisspiels. Sie werden nach Niveaus organisiert, um sicherzustellen, dass alle Teilnehmer in einer für ihre aktuelle Fähigkeit geeigneten Umgebung sind. Perfekt für diejenigen, die verbessern möchten, während sie die Gesellschaft anderer Tennisspieler genießen.",
             tecnica_desc: "Ein umfassender Ansatz, der die Vollkommenheit der Schläge mit dem Verständnis des Spiels verbindet. Du wirst lernen, das Spiel deines Gegners zu durchschauen, Strategien für verschiedene Situationen zu entwickeln und die Position auf dem Platz zu deinem Vorteil zu nutzen. Dieser Dienstleistung ist essenziell für Spieler, die nicht nur körperlich verbessern möchten, sondern auch Tennis als mentale und strategische Sportart verstehen möchten.",
             preparacion_fisica_desc: "Ein konditionelles Trainingsprogramm, speziell auf die Anforderungen des Tennis zugeschnitten. Enthält Übungen zur Steigerung der kardiovascularen Ausdauer, explosiver Kraft, Flexibilität und Koordination. Diese Sitzungen helfen dabei, Verletzungen zu vermeiden, eine hohe Leistungsfähigkeit während des gesamten Spiels zu halten und sich zwischen den Spielen schneller zu erholen.",
@@ -193,10 +249,38 @@ document.addEventListener("DOMContentLoaded", function () {
             correo: "Kontakt:",
             mapa: "Standort in Hamburg",
             testimonios: "Testimonials",
-        testimonial1: `"Als Tennisanfänger haben mich die Kurse von Ace Tennis Trainer in Hamburg schnell vorangebracht. Der Trainer ist sehr geduldig und passt die Sitzungen an meine Bedürfnisse an."`,
-        testimonial1_author: "- Maria S., Hamburg",
-        testimonial2: `"Nach nur wenigen Wochen des Trainings mit ihm habe ich meine Technik stark verbessert. Der Trainer weiß wirklich, was er tut."`,
-        testimonial2_author: "- Thomas K., Hamburg"
+            testimonial1: `"Als Tennisanfänger haben mich die Kurse von Ace Tennis Trainer in Hamburg schnell vorangebracht. Der Trainer ist sehr geduldig und passt die Sitzungen an meine Bedürfnisse an."`,
+            testimonial1_author: "- Maria S., Hamburg",
+            testimonial2: `"Nach nur wenigen Wochen des Trainings mit ihm habe ich meine Technik stark verbessert. Der Trainer weiß wirklich, was er tut."`,
+            testimonial2_author: "- Thomas K., Hamburg",
+            consultoria: "Beratung",
+            consultoria_title: "Beratung für Trainer",
+            consultoria_description: "Erweitere deine Karriere als Tennistrainer weltweit\nWenn du ein Tennistrainer bist oder einer werden möchtest und von einer Arbeit im Ausland träumst, wird diese Beratung dir helfen, die richtigen Schritte zu unternehmen. Mit über 17 Jahren Erfahrung auf vier Kontinenten werde ich dich durch den Prozess führen, eine internationale Karriere in verschiedenen Arten von Clubs, Schulen und Sportprogrammen aufzubauen.",
+            consultoria_ofrece: "Was biete ich in der Beratung?",
+            consultoria_items: [
+                "Personalberatung darüber, wie man Arbeitsmöglichkeiten im Ausland finden kann.",
+                "Überprüfung von CVs und Bewerbungsschreiben, um dein Profil bei internationalen Arbeitgebern hervorzuheben.",
+                "Zertifizierungen und Anforderungen: Informationen zu notwendigen Ausweisen in verschiedenen Ländern.",
+                "Kulturelle und methodische Anpassung: Schlüssel zur Training in verschiedenen sozioökonomischen und kulturellen Umgebungen.",
+                "Unterschiede in der Tennisindustrie zwischen Eliteclubs, internationalen Schulen und Gemeinschaftsprogrammen.",
+                "Netzwerkbildung: Tipps zur Aufbau von beruflichen Beziehungen in der globalen Tennisindustrie.",
+                "Wie Tennisunterricht auf Englisch für Nicht-Muttersprachler zu geben ist: Strategien und Schlüsselbegriffe, um Spieler in einer Sprache zu trainieren, die nicht ihre Muttersprache ist."
+            ],
+            consultoria_público: "Für wen ist diese Beratung gedacht?",
+            consultoria_público_items: [
+                "Trainer, die ihre erste internationale Erfahrung suchen.",
+                "Profis, die bereits im Ausland gearbeitet haben und ihre Möglichkeiten erweitern möchten.",
+                "Aspirierende Trainer, die sich auf eine Zukunft im globalen Tennis vorbereiten möchten."
+            ],
+            consultoria_modalidades: "Beratungsarten",
+            consultoria_modalidades_items: [
+                "Einzelberatung online: 1:1-Beratung, die auf deine Bedürfnisse zugeschnitten ist.",
+                "Gruppenworkshops (bald verfügbar): Lernräume für Trainer gemeinsam mit anderen.",
+                "Langfristige Mentorship: Dauerhafte Unterstützung zur Entwicklung deiner internationalen Karriere."
+            ],
+            consultoria_reserva: "Wenn du bereit bist, den nächsten Schritt in deiner internationalen Karriere als Tennistrainer zu tun, vereinbare ein Meeting mit mir.",
+            consultoria_sobremi: "Ich bin Tennistrainer mit 17 Jahren Erfahrung in Argentinien, Neuseeland, China und Deutschland. Ich habe in Eliteclubs, internationalen Schulen und Entwicklungsprogrammen in Gemeinschaften ohne Tennistradition gearbeitet. Meine Erfahrung ermöglicht es mir, dir einen realistischen und praktischen Überblick darüber zu geben, wie du eine internationale Karriere in diesem Sport aufbaust.",
+            consultoria_contacto: "Kontaktiere mich für mehr Informationen"
         }
     };
 
@@ -207,7 +291,17 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelectorAll("[data-translate]").forEach(element => {
             const key = element.getAttribute("data-translate");
             if (translations[lang][key]) {
-                element.textContent = translations[lang][key];
+                if (element.tagName === "UL") {
+                    // Para listas
+                    element.innerHTML = "";
+                    translations[lang][key].forEach(item => {
+                        const li = document.createElement("li");
+                        li.textContent = item;
+                        element.appendChild(li);
+                    });
+                } else {
+                    element.textContent = translations[lang][key];
+                }
             } else {
                 console.warn(`No translation found for key: ${key}`);
                 element.textContent = key; // Muestra la clave si no hay traducción
