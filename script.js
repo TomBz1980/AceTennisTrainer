@@ -292,7 +292,6 @@ document.addEventListener("DOMContentLoaded", function () {
             const key = element.getAttribute("data-translate");
             if (translations[lang][key]) {
                 if (element.tagName === "UL") {
-                    // Para listas
                     element.innerHTML = "";
                     translations[lang][key].forEach(item => {
                         const li = document.createElement("li");
