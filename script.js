@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
             inicio: "Inicio",
             entrenador: "Entrenador",
             servicio: "Servicio",
-            
             contacto: "Contacto",
             
             welcome: "¡Descubre el tenis en Hamburgo con Ace Tennis Trainer!",
@@ -76,7 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
             inicio: "Home",
             entrenador: "Coach",
             servicio: "Service",
-            
             contacto: "Contact",
             
             welcome: "Discover Tennis in Hamburg with Ace Tennis Trainer!",
@@ -129,7 +127,6 @@ document.addEventListener("DOMContentLoaded", function () {
             inicio: "Startseite",
             entrenador: "Trainer",
             servicio: "Service",
-            
             contacto: "Kontakt",
             
             welcome: "Entdecken Sie Tennis in Hamburg mit Ace Tennis Trainer!",
@@ -175,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
             discount_offer: "Begrenztes Angebot! 50% Rabatt auf die erste Klasse",
             correo: "Kontakt:",
             mapa: "Standort in Hamburg"
-            
+           
         }
     };
 
