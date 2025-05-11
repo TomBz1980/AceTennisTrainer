@@ -23,10 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
             inicio: "Inicio",
             entrenador: "Entrenador",
             servicio: "Servicio",
-            testimonio: "Testimonio",
-            tienda: "Tienda",
+            
             contacto: "Contacto",
-            testimonios: "Testimonios",
+            
             welcome: "¡Descubre el tenis en Hamburgo con Ace Tennis Trainer!",
             discount_offer: "¡Oferta limitada! 50% de descuento en la primera clase",
             coach_title: "Entrenador",
@@ -57,9 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
             horarios_desc: "Clases disponibles en las mañanas en Hamburgo.",
             lugar: "Lugar:",
             lugar_desc: "En varias ubicaciones de Hamburgo. Consulta disponibilidad.",
-            tienda: "Tienda",
-            tienda_desc: "Descubre nuestra selección de ropa y accesorios de tenis. Ofrecemos una variedad de opciones que incluyen prendas para hombres, mujeres y niños, así como también bolsas de tenis y otros elementos esenciales para el juego en Hamburgo. Todo lo que necesitas para mejorar tu desempeño en la cancha está aquí.",
-            ir_tienda: "Ir a la Tienda",
+            
             consulta: "Consultas",
             nombre: "Nombre:",
             email: "Email:",
@@ -79,10 +76,9 @@ document.addEventListener("DOMContentLoaded", function () {
             inicio: "Home",
             entrenador: "Coach",
             servicio: "Service",
-            testimonio: "Testimonial",
-            tienda: "Store",
+            
             contacto: "Contact",
-            testimonios: "Testimonials",
+            
             welcome: "Discover Tennis in Hamburg with Ace Tennis Trainer!",
             discount_offer: "Limited time offer! 50% off your first class",
             coach_title: "Coach",
@@ -113,9 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
             horarios_desc: "Classes available in the mornings in Hamburg.",
             lugar: "Location:",
             lugar_desc: "At various locations in Hamburg. Check availability.",
-            tienda: "Store",
-            tienda_desc: "Discover our selection of tennis clothing and accessories. We offer a variety of options including apparel for men, women, and children, as well as tennis bags and other essential items for the game in Hamburg. Everything you need to enhance your performance on the court is here.",
-            ir_tienda: "Go to Store",
+            
             consulta: "Inquiries",
             nombre: "Name:",
             email: "Email:",
@@ -135,10 +129,9 @@ document.addEventListener("DOMContentLoaded", function () {
             inicio: "Startseite",
             entrenador: "Trainer",
             servicio: "Service",
-            testimonio: "Testimonial",
-            tienda: "Geschäft",
+            
             contacto: "Kontakt",
-            testimonios: "Testimonials",
+            
             welcome: "Entdecken Sie Tennis in Hamburg mit Ace Tennis Trainer!",
             discount_offer: "Begrenztes Angebot! 50% Rabatt auf die erste Klasse",
             coach_title: "Trainer",
@@ -169,9 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
             horarios_desc: "Kurse sind am Vormittag in Hamburg verfügbar.",
             lugar: "Ort:",
             lugar_desc: "An verschiedenen Orten in Hamburg. Verfügbarkeit prüfen.",
-            tienda: "Geschäft",
-            tienda_desc: "Entdecke unsere Auswahl an Tenniskleidung und -Zubehören. Wir bieten eine Vielzahl von Optionen, einschließlich Kleidung für Männer, Frauen und Kinder, sowie auch Tennistaschen und andere notwendige Gegenstände für das Spiel in Hamburg. Alles, was Sie brauchen, um Ihre Leistung auf dem Platz zu verbessern, ist hier.",
-            ir_tienda: "Zum Geschäft",
+            
             consulta: "Anfragen",
             nombre: "Name:",
             email: "E-Mail:",
